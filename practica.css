@@ -1,0 +1,94 @@
+/*box model 
+   1.la etiqueta debe tener: 
+     -contenido 
+     - width y height  
+   2. la etiqueta debe tener display: block
+      implica: 
+      1. el ancho va a ocupar todo el tamaño de la pantalla.
+
+*/
+
+.box{
+    height: 200px;
+}
+
+#caja1{
+    display: block;
+        /*necesita tres coasas si o si:display:
+    -Estilo de borde
+    -color de borde 
+    -ancho de borde 
+    */
+    border: rgba(18, 201, 18, 0.8)     3px   dotted;
+    margin: 100px  100px 300px 50px; 
+
+
+}
+
+.box1{
+    background-color: salmon;
+    padding: 50px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+#caja2{
+    display:block;
+    width: 300px;
+    border-top: #4590ff ridge 10px;
+    border-left: #1aaf71 inset 20px;
+    border-bottom: double #7a07d8 20px ;
+    margin-top: 120px;
+}
+
+
+.box2{
+    background-color: rgb(34,54,300);    
+    padding: 30px 84px 10px 20px;
+    
+}
+
+#caja3{
+    display: block;
+    width: 400px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+
+}
+
+.box3{
+ background-color: #454545;
+ padding: 50px 40px 10px;
+ border-style: outset  ;
+ border-width: 50px ;
+ border-color: aqua;
+ border-left-color: #7a07d8 ;
+ border-left-style: dashed ;
+ border-left-width: 40px ;
+ border-right-color:  #6b6b6b;
+}
+
+
+#caja4{
+  display: block;
+  width: 400px;
+}
+
+.box4{
+ background-color: #d11818;
+ padding: 50px 40px 10px;
+ border-style: dotted double ;
+ border-width: 50px ;
+ border-color: rgb(228, 223, 223);
+ border-left-color: #07d807 ;
+ border-left-style: dashed ;
+ border-left-width:  #07d807; 
+ border-right-color:  #e00fa1;
+ 
+}
